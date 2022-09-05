@@ -1,3 +1,3 @@
 # Todo-List
 
-## Empty Repo, will update soon
+## Sample To Do Website created using JavaScript
