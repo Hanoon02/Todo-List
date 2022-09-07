@@ -22,6 +22,7 @@ function addTask(){
 
     const newBtn = document.createElement('button');
     newBtn.classList.add('btn');
+    newBtn.classList.add('btn-success');
     newBtn.textContent = 'Add';
     
     tempDiv.appendChild(newInput);
