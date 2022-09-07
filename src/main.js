@@ -2,7 +2,6 @@ const addBtn = document.getElementById('add-task');
 const main = document.getElementById('tasks');
 const clear = document.getElementById('clear');
 const allTasks = document.getElementById('all-tasks');
-// const view = document.getElementById('view');
 const form = document.getElementById('form');
 
 var taskList = [];
@@ -43,7 +42,3 @@ function addTask(){
 addBtn.addEventListener('click', ()=>{
     taskCount++;
     addTask();})
-
-// view.addEventListener('click', ()=>{
-//     console.log(taskList);
-// })
